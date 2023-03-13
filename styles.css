@@ -1,0 +1,157 @@
+    body {
+    color: #282828;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image: url(bokeh.jpg);
+    background-size: cover;
+  /*Float the aside so it displays next to main*/}
+
+#container{
+    width: 1280px;
+    height: auto;
+    background-color: rgba(255,255,255,1.00);
+    margin: auto;
+    background-size: cover;
+}
+
+
+/*Float the main so it shows uo next to the Aside. Reduce width by 150px so they both like header.*/
+
+
+aside {
+    width: 150px;
+    height: 1200px;
+    background-color: rgba(103,103,103,1.00);
+    float: left;
+}
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url(header.jpg);
+    margin: 50px 0px 0px 0px;
+    background-position: center;
+    background-repeat: no-repeat;	
+}
+
+main {
+    width: 1100px;
+    height: 1600px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	
+	background-color: white;
+    
+}
+
+h1 {
+    color: #6BE7FF;
+	font-family: "politica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+
+p{
+   
+    font-weight: 400;
+    font-style: normal;
+    
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*Clear the float so the footer shows up in the right place again*/
+footer {
+    width: 1280px;
+	height: 50px;
+	background-color: #646464;
+    clear: both;
+	
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /*font-size: 14pt;*/
+}
+
+.floatleft {
+	float: left;
+}
+
+
+article {
+    margin-bottom: 50px;
+}
+
+nav {
+    width: 1280px;
+    height: 50px;
+	background-color: white;
+	
+}
+
+#container nav li {
+    display: block;
+    list-style-type: none;
+	float: left;
+	margin: 0px 60px 0px 0px;
+	width: 80px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt;
+}
+
+#container nav ul {
+    margin: auto;
+    width: 565px;
+
+}
+
+nav a:link {
+    color: #6CE7FF;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #5826A0;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color:#6CE7FF;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #2C2929;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(107,231,255,1.00);
+    color: rgba(255,255,255,1.00);
+    font-size: 16px;
+   
+}
+
+.submit_btn:hover {
+	
+	 -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
